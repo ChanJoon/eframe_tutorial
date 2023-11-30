@@ -1,7 +1,7 @@
 [package]
-name = "eframe_template"
+name = "eframe_tutorial"
 version = "0.1.0"
-authors = ["Emil Ernerfeldt <emil.ernerfeldt@gmail.com>"]
+authors = ["Chan-joon Park <emil.as06047@yonsei.ac.kr>"]
 edition = "2021"
 rust-version = "1.72"
 
@@ -14,6 +14,7 @@ eframe = { version = "0.24.0", default-features = false, features = [
     "glow",          # Use the glow rendering backend. Alternative: "wgpu".
     "persistence",   # Enable restoring app state when restarting the app.
 ] }
+egui_extras = "0.24.0"
 log = "0.4"
 
 # You only need serde if you want app persistence:
